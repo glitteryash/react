@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const App = () => {
+const App2 = () => {
   //event handler//
   //   const buttonHandler = (e) => {
   //     e.preventDefault();
@@ -44,4 +44,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App2;
