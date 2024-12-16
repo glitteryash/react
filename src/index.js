@@ -5,6 +5,7 @@ import App from "./App";
 import Nav from "./nav";
 import App2 from "./App2";
 import App3 from "./App3";
+import App4 from "./App4";
 
 //React 18以前的寫法
 // ReactDOM.render(
@@ -21,5 +22,6 @@ root.render(
     <App />
     <App2 />
     <App3 />
+    <App4 />
   </React.StrictMode>
 );

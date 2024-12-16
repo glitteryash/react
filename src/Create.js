@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 
 const Create = ({ message, setMessage }) => {
   const submitHandler = (e) => {
     e.preventDefault();
-    setMessage([...message, input]);
+    setMessage([...message, { input, id: uuidv4() }]);
     setInput("");
   };
 
